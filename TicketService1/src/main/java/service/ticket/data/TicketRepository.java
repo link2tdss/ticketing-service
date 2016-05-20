@@ -8,6 +8,6 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface TicketRepository extends CrudRepository<Ticket, String>{
 	
-	List<Ticket> findByConfirmationId(long confirmationId);
+	List<Ticket> findByConfirmationId(Long confirmationId);
 
 }

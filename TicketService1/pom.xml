@@ -71,7 +71,7 @@
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>exec-maven-plugin</artifactId>
 				<configuration>
-					<mainClass>service.ticket.TicketService1Application</mainClass>
+					<mainClass>service.ticket.TicketServiceApplication</mainClass>
 				</configuration>
 			</plugin>
 		</plugins>

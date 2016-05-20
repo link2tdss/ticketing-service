@@ -20,6 +20,11 @@ import service.ticket.data.TicketRepository;
 import service.ticket.data.VenueLevel;
 import ticket.data.dao.SeatHold;
 
+/**
+ * The Service implementation that handles the incoming REST calls, interacting with Hazelcast to perform locks, and storing confirmed tickets into the repository.
+ * @author tsodhi
+ *
+ */
 @Component
 public class TicketServiceImpl implements TicketService {
 

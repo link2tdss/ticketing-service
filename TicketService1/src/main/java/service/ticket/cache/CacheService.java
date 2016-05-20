@@ -19,6 +19,11 @@ import service.ticket.ServiceConstants;
 import service.ticket.data.VenueLevel;
 import ticket.data.dao.SeatHold;
 
+/**
+ * Service class used for interaction with Hazelcast, to facilitate adding and removing data from the cache.
+ * @author tsodhi
+ *
+ */
 @Component
 public class CacheService {
 

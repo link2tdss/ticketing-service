@@ -14,7 +14,7 @@ import org.springframework.web.context.WebApplicationContext;
 @RunWith(SpringJUnit4ClassRunner.class)
 @SpringApplicationConfiguration(classes=TicketServiceApplication.class)
 @WebIntegrationTest
-public abstract class TicketService1ApplicationTests {
+public abstract class TicketServiceApplicationTests {
 
 	protected RestTemplate restTemplate = new TestRestTemplate();
 

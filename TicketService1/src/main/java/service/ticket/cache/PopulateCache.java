@@ -18,6 +18,11 @@ import service.ticket.ServiceConstants;
 import service.ticket.data.VenueLevel;
 import service.ticket.data.VenueLevelRepository;
 
+/**
+ * Application startup listener, that ties into Spring application startup and populates the Hazelcast cache with data from the DB.
+ * @author tsodhi
+ *
+ */
 @Component
 public class PopulateCache implements ApplicationListener<ContextRefreshedEvent>{
  

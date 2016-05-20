@@ -12,6 +12,11 @@ import com.hazelcast.config.MapConfig;
 import com.hazelcast.config.MultiMapConfig;
 import com.hazelcast.config.MultiMapConfig.ValueCollectionType;
 
+/**
+ * Bootstrap file to load the Spring application context and configure the application.
+ * @author tsodhi
+ *
+ */
 @SpringBootApplication
 @EnableCaching
 @EnableJpaRepositories
@@ -21,6 +26,10 @@ public class TicketServiceApplication {
 		SpringApplication.run(TicketServiceApplication.class, args);
 	}
 
+	/**
+	 * Initializes and configures Hazelcast for subsequent use.
+	 * @return
+	 */
 	@Bean
 	public Config configureCache() {
 		Config config = new Config();

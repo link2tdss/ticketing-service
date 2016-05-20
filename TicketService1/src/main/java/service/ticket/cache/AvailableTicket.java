@@ -4,6 +4,10 @@ import java.io.Serializable;
 
 public class AvailableTicket implements Serializable {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 3281844888671286511L;
 	private String ticketId;
 	private String price;
 	private String seatNo;

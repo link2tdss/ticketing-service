@@ -1,5 +1,10 @@
 package service.ticket;
 
+/**
+ * Service constansts used throughout the application.
+ * @author tsodhi
+ *
+ */
 public class ServiceConstants {
 
 	public static final String VENUE_LEVELS = "VENUE_LEVELS";
